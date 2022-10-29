@@ -1,0 +1,52 @@
+body{
+background-image: linear-gradient(100deg,#00ff9d,#00ffff);
+color:black;
+font-size: 19px;
+font-family:'Poppins',sans-serif ;
+}
+.year{
+    font-weight:550;
+}
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+a{
+    outline: none;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    border-bottom: 3px solid;
+    border-image-source: linear-gradient(90deg, #00ffff 50%,  #00f57a 50%);
+    border-image-slice: 1;
+    padding: 4px 20px;
+    color: black;
+    box-shadow: 1px 4px 5px #76aaaa;
+    background-color:rgb(255,255,255,0.8);
+    /* backdrop-filter: blur(10px); */
+}
+a:hover{
+    transform: scale(1.1);
+}
+main{
+    background-color: rgb(255,255,255,0.5);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    padding: 10px 20px;
+    margin: 3%;
+    border-radius: 20px;
+    box-shadow:0 4px 5px #a7d3c1;
+}
+
+dt{
+    margin: 20px;
+    font-weight:600;
+}
+li{
+    font-weight: 545;
+}
